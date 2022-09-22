@@ -1,0 +1,35 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Oswald", serif;
+}
+.ocultar-desde-lg {
+    display: block;
+}
+@media (min-width: 992px) {
+    .ocultar-desde-lg {
+        display: none;
+    }
+}
+.navbar-toggler-icon:hover {
+    background-color: goldenrod;
+}
+.beneficios {
+    padding-top: 2%;
+}
+body { font: 400 1em/1.5 "Neuton"; background: #090d00; color: rgba(255,255,255,.25); text-align: center; margin: 0 }
+
+h1 {
+	text-transform: uppercase;
+
+}
+span {
+    font: 700 4em/1 "Oswald", sans-serif;
+    letter-spacing: 0;
+    padding: .25em 0 .325em;
+	display: block;
+	margin: 0 auto;
+    text-shadow: 0 0 80px rgba(255,255,255,.5);
+}
+
